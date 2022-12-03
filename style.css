@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background: #121214;
+}
+.section-principal {
+    max-width: 1530px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 639px;
+}
+
+.logo-rock svg {
+    position: absolute;
+    width: 389px;
+    height: 94px;
+    margin-left: -213px;
+    margin-top: -89px;
+}
+.texto {
+    margin: 130px 0px 0px 65px;
+}
+
+.texto h1 {
+    color: #04D361;
+    margin-left: -267px;
+    font-size: 30px;
+    margin-top: 130px;
+    position: absolute;
+}
+.texto h3 {
+    margin-left: -267px;
+    margin-top: 181px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+}
+.texto p {
+    margin-top: 230px;
+    color: #A8A8A8;
+    margin-left: -267px;
+    position: absolute;
+    max-width: 768px;
+}
+
+.texto .p-email {
+    margin-top: 308px;
+    margin-bottom: 35px;
+}
+.img-layout img {
+    width: 35vw;
+    height: 99vh;
+    object-fit: over;
+}
+.two-div {
+    margin-left: 60px;
+}
+
+.two-div input {
+    font-family: 'Roboto Mono', monospace;
+    height: 50px;
+    border-left: 6px solid #04D361;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: -264px;
+}
+input {
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    margin-left: 333px;
+}
+button{
+    background: #8257e5;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    margin-left: 742px;
+    margin-top: 400px;
+}
+.icon{
+    color: white ;
+    padding: 5px 5px 0px 0px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+.link a{
+    position: absolute;
+    margin-left: -202px;
+    margin-top: 1015px;
+    text-decoration: none;
+    color: #8257e5;
+}
+.seta{
+    position: absolute;
+    color: #8257e5;
+    margin-left: 2px;
+    margin-top: 1018px;
+}
+.seta:hover{
+    cursor: pointer;
+}
